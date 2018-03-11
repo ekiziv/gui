@@ -10,7 +10,7 @@ cam.set(3,1024)
 cam.set(4,768)
 
 def move_forward(event, motor_name):
-    print("Moving forward")
+    print("Hey, we are moving forward")
     motor_name.forward(speed=1)
 
 def move_backward(event, motor_name):
