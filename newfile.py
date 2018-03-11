@@ -9,6 +9,7 @@ cam = cv2.VideoCapture(0)
 cam.set(3,1024)
 cam.set(4,768)
 
+print ("I was printing here")
 def move_forward(event, motor_name):
     print("Hey, we are moving forward")
     motor_name.forward(speed=1)
